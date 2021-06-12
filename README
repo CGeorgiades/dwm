@@ -1,0 +1,18 @@
+# My version of dwm
+## Changes the tag system structure as so:
+
+Normal DWM:
+     Clients <= Monitor <= Tags
+
+With modifications:
+	Clients <= Tags <= Monitors
+
+Under this system, the tags are monitor-independent.
+So, the monitors select which tag (and clients) they are showing
+
+There are also different workspaces added. The default to switch workspaces is Shift+Tab.
+Each workspace has its own, independent, set of tags
+By default, to send a client to a workspace, use Ctrl+'N', where N is a number 1-4.
+
+Under my system the TagKeys are Meta+N and Alt+N, where N is a number 1-4
+
